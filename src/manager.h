@@ -7,9 +7,9 @@ enum AppMode {
   MATRIX,
   BOUNCE,
   RANDOM,
-  SNAKE,
   MODE_COUNT
 };
+// SNAKE,
 
 struct AppManager {
   AppMode currentMode;
